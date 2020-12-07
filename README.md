@@ -19,37 +19,37 @@ This tutorial will cover Regex used to match Hex values:
 
 ### Anchors
 
-The ^ character matches the beginning of the string
+The `^` character matches the beginning of the string
 
-The $ character matches the end of the string
+The `$` character matches the end of the string
 
-The # character matches a "#" character
+The `#` character matches a "#" character
 
 ### Quantifiers
 
-The ? character in the Regex match between 0 and 1 of the previous tokens. 
+The `?` character in the Regex match between 0 and 1 of the previous tokens. 
 
-The {6} quantifier matches 6 of the next token.
+The `{6}` quantifier matches 6 of the next token.
 
-The | is an alternation that acts like a boolean or matches the expression before of after the |.
+The `|` is an alternation that acts like a boolean or matches the expression before of after the `|`.
 
-The {3} matches 3 of the previous token. 
+The `{3}` matches 3 of the previous token. 
 
 ### Grouping and Capturing
 
 Capturing group #1
 
-([a-f0-9]{6}|[a-f0-9]{3})
+`([a-f0-9]{6}|[a-f0-9]{3})`
 
 In the Regex, capturing groups may have many tokens together.  
 
 ### Character Classes
 
-[a-f0-9]
+`[a-f0-9]`
 
-This character set matches "a-f" lower-case letter range and its case sensitive.
+This character set matches `a-f` lower-case letter range and its case sensitive.
 
-The character set also matches "0-9" number range and its also case sensitive.
+The character set also matches `0-9` number range and its also case sensitive.
 
 
 ## References
